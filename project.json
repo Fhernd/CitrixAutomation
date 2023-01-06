@@ -1,7 +1,7 @@
 {
   "name": "CitrixAutomation",
   "description": "Source: https://www.geeksforgeeks.org/how-to-build-a-data-scraping-robot-in-uipath-studio/",
-  "main": "Main.xaml",
+  "main": "DataExtraction.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.17.0-preview]",
     "UiPath.Mail.Activities": "[1.18.2]",
@@ -42,13 +42,19 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
       "uniqueId": "3b3f4801-436b-4702-82b8-612ede91e412",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DataExtraction.xaml",
+      "uniqueId": "9d5163e9-cead-45d6-9f87-f4dc746cf314",
       "input": [],
       "output": []
     }
